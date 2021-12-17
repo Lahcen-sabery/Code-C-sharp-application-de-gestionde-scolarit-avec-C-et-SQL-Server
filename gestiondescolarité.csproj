@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E559F75-9FA5-4EA1-9E52-CFFB65216FF9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>gestiondescolarité</RootNamespace>
+    <AssemblyName>gestiondescolarité</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\gestion de scolarité.exe\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AffichageEtu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AffichageEtu.Designer.cs">
+      <DependentUpon>AffichageEtu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2_Compte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_Compte.Designer.cs">
+      <DependentUpon>Form2_Compte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3_Prof.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3_Prof.Designer.cs">
+      <DependentUpon>Form3_Prof.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4_Module.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4_Module.Designer.cs">
+      <DependentUpon>Form4_Module.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AffichageEtu.resx">
+      <DependentUpon>AffichageEtu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_Compte.resx">
+      <DependentUpon>Form2_Compte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3_Prof.resx">
+      <DependentUpon>Form3_Prof.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4_Module.resx">
+      <DependentUpon>Form4_Module.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Actions-list-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\adresse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Apple-iPhone-7-128-Go-4-7-Rouge.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button-Delete-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c05477854.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categorie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Categorize_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close-2-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Connected_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connectmode.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Copier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Country_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-people.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer-service-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deconnect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Deconnecte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dell.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Epson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Excel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gmail_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImpriCanon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 4s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 5s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone 6s.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone s6plus.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone4c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphone7plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iphonex.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\k.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MACBOOKPRO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Menu_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Motdepasse_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Office-Client-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pc acer.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pcmsi.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pctoshiba.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pdpkeyfeature-sm-g920azdaatt-600x600-C1-062016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Phone_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pictures-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\print-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prix_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\product_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quantie_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Recycle-iconaaa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s8 plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\samsung s8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shop-cart-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shutdown_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SM-T580NZKAXAR-02-71016.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Subtract_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ville_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captdggg.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturebty.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captureccc.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Capturepml.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Retour.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application mini projet GS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application mini projet GS1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application GS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application GS1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application GS2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application GbS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\application GllS.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Categorize.ico" />
+    <None Include="Resources\seconnecter.jpg" />
+    <None Include="Resources\saisie note 2.jpg" />
+    <None Include="Resources\gerer les comptes1.jpg" />
+    <None Include="Resources\gerer les comptes.jpg" />
+    <None Include="Resources\menu.jpg" />
+    <None Include="Resources\BDR.jpg" />
+    <None Include="Resources\Espace de gestion des etudiants.jpg" />
+    <None Include="Resources\surveillance1.jpg" />
+    <None Include="Resources\surveillance.jpg" />
+    <None Include="Resources\Espace Professeur.jpg" />
+    <None Include="Resources\imagebbb.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

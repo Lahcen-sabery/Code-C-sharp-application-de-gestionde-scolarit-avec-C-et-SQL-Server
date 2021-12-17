@@ -1,0 +1,22 @@
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Form1.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Properties.Resources.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.csproj.GenerateResource.cache
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\bin\Debug\gestiondescolarité.exe.config
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\bin\Debug\gestiondescolarité.exe
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\bin\Debug\gestiondescolarité.pdb
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.exe
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.pdb
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Form2_Compte.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Form3_Prof.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.AffichageEtu.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Form2.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Form4_Module.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Nouveaucompte.resources
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.Menu.resources
+H:\gestionde scolaritéexecuter\gestiondescolarité.exe.config
+H:\gestionde scolaritéexecuter\gestiondescolarité.exe
+H:\gestionde scolaritéexecuter\gestiondescolarité.pdb
+H:\gestiondescolarité\gestiondescolarité\gestiondescolarité\obj\Debug\gestiondescolarité.csprojAssemblyReference.cache
+H:\gestiondescolarité\gestion de scolarité.exe\gestiondescolarité.exe.config
+H:\gestiondescolarité\gestion de scolarité.exe\gestiondescolarité.exe
+H:\gestiondescolarité\gestion de scolarité.exe\gestiondescolarité.pdb
